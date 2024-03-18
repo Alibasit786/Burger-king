@@ -1,0 +1,972 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform:capitalize ;
+}
+
+@font-face {
+    font-family: ali basit;
+    src:url(fonts/FlameBold.otf);
+}
+@font-face {
+    font-family: basit;
+    src: url(fonts/FlameRegular.otf);
+}
+
+@font-face{
+    font-family: waseem;
+    src: url(fonts/FlameCondensed.otf);
+}
+
+
+@font-face{
+    font-family: naseem;
+    src: url(fonts/FlameSans.otf);
+}
+body {
+    background-color: #F5EBDC;
+}
+
+  /* Top Bar Css Started */
+.top-nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #F5EBDC;
+    position: fixed;
+    z-index: 400;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1.41px;
+}
+
+.container-top{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F5EBDC;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.logo {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo>button{
+    background: transparent;
+    border: 1px solid gray;
+    width: 80px;
+    cursor: pointer;
+}
+
+.logo>img{
+  width: 40px;
+}
+
+.top-button {
+    width: 50%;
+    height: 35px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.login{
+     width: 120px;
+     background-color:#D62300;
+     color: #ffffff;
+     border-radius: 30px;
+     font-weight: bold;
+     border: none;
+}
+
+.login:hover {
+    background-color: #A71B00;
+    cursor:crosshair;
+}
+
+.price {
+    width: 90px;
+    background-color: #502314;
+    color: #ffffff;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+}
+
+.price:hover{
+    background-color: #A71B00;
+    cursor: crosshair;
+}
+
+/* Top Bar Css Ended */
+
+/* Burger Gif Css Started */
+.burger-gif {
+    /* width: 100%; */
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+ }
+.headings{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.headings-text{
+    display: flex;
+    /* height: 100%; */
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.gif-button {
+    /* height: 38%; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.headings-text>h1{
+    font-family: ali basit;
+    font-size: 60px;
+    color: #502314;
+}
+
+.burgers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.burgers-img {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 96%;
+}
+
+.burgers-img>img{
+    width: 600px;
+    height: auto;
+}
+
+.red-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: basit;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #d62300;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.red-button:hover{
+    background-color: #A71B00;
+    cursor: crosshair;
+}
+
+.gif-button-2{
+    display: none;
+}
+
+.transparant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: basit;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #d62300;
+    border-radius: 25px;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #d62300;
+    background: transparent;
+}
+
+.transparant:hover{
+    background-color: #F2D7C6; 
+    cursor: crosshair;
+}
+
+.headings-text-2{
+    display: none;
+}
+
+/* Burger Gif Css Endted */
+
+/* cards css Started */
+.cards {
+    width: 100%;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.card-content {
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow:rgba(0, 0, 0, 0.22) 0px 1px 1px 1px;
+}
+
+.card-img>img{
+    width: 505.4px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cards-text{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+    gap: 5px;
+    text-align: justify;
+    font-family: basit;
+    color: rgba(80, 35, 20);
+}
+.card-1-button{
+    align-self: flex-end;
+    margin-top: 65px;
+}
+
+.card-1-button>button:hover {
+    background-color: #FBE9E5;
+}
+.card-1-button>button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d62300;
+    border-radius: 25px;
+    background: transparent;
+    color: #d62300;
+    font-family:basit;
+}
+
+.card-content-2{
+    width: 40%;
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 25px;
+    justify-content: center;
+    box-shadow:rgba(0, 0, 0, 0.22) 0px 1px 1px 1px;
+}
+
+.cards-img-2>img{
+    width: 505.4px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cards-text-2{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+    text-align: justify;
+    gap: 5px;
+    font-family: basit;
+    color: rgba(80, 35, 20);
+}
+.card-2-button{
+    align-self: flex-end;
+    margin-top: 40px;
+}
+.card-2-button>button {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d62300;
+    border-radius: 25px;
+    background: transparent;
+    color: #d62300;
+    font-family:basit;
+    align-content: flex-end;
+}
+
+.card-2-button>button:hover {
+    background-color: #FBE9E5;
+}
+
+/* cards css Started */
+
+/* cards 3&4 css Started */
+.cards-3 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top:10px;
+}
+
+.card-content-3 {
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow:rgba(0, 0, 0, 0.22) 0px 1px 1px 1px;
+}
+
+.card-img-3>img{
+    width: 505.4px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cards-text-3{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+    gap: 5px;
+    text-align: justify;
+    font-family: basit;
+    color: rgba(80, 35, 20);
+}
+.card-3-button{
+    align-self: flex-end;
+    margin-top: 65px;
+}
+
+.card-3-button>button:hover {
+    background-color: #FBE9E5;
+}
+.card-3-button>button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d62300;
+    border-radius: 25px;
+    background: transparent;
+    color: #d62300;
+    font-family:basit;
+}
+
+.card-content-4{
+    width: 40%;
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 25px;
+    justify-content: center;
+    box-shadow:rgba(0, 0, 0, 0.22) 0px 1px 1px 1px;
+}
+
+.cards-img-4>img{
+    width: 505.4px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cards-text-4{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+    text-align: justify;
+    gap: 5px;
+    font-family: basit;
+    color: rgba(80, 35, 20);
+}
+.card-4-button{
+    align-self: flex-end;
+    margin-top: 40px;
+}
+.card-4-button>button {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d62300;
+    border-radius: 25px;
+    background: transparent;
+    color: #d62300;
+    font-family:basit;
+    align-content: flex-end;
+}
+
+.card-4-button>button:hover {
+    background-color: #FBE9E5;
+}
+/* cards 3&4 css Ended */
+
+/* last section css started */
+.last-section {
+    width: auto;
+    display: flex;
+    background-color: #EBE2D3;
+    height: 350px;
+}
+
+.image-section {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.qr-image {
+    display: flex;
+    justify-content: center;
+}
+.qr-image>img {
+    width:350px ;
+}
+
+
+.offer-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    gap: 20px;
+
+}
+
+.offer {
+    width: 100%;
+    font-family: basit;
+    line-height: 1.125em;
+    font-size: 48px;
+    color: rgb(80, 35, 20);
+    font: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-align: start;
+}
+
+.offer-buttons {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.offer-buttons>button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.offer-para>p {
+    display: flex;
+    text-rendering: optimizeLegibility;
+    text-align: left;
+    color: rgb(80, 35, 20);
+    line-height: 24px;
+    font-family: Flame-RegularSans;
+    font-size: 14px;
+}
+/* last section css Ended */
+
+/* red bar css started */
+.red-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    background-color: #EBE2D3;
+    height: 50px;
+    padding-bottom: 60px;
+}
+
+.red-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #502314;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: small;
+}
+
+.red-content>a {
+    color: #ffffff;
+}
+/* red bar css started */
+
+/* Bottom Nav-bar Css Started */
+.bottom-nav-bar {
+    height: 60px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 1px;
+    justify-content: center;
+    position: fixed;
+    bottom: 0; /* Fix the bar to the bottom of the viewport */
+    width: 100%; /* Ensure it spans the entire width */
+    z-index: 400;
+    background-color: #F5EBDC;
+}
+
+  .bottom-content{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bottom-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    font-size: small;
+    color: rgb(80, 35, 20);
+  }
+
+  .bottom-icons>img{
+    width: 20px;
+  }
+/* Bottom Nav-bar Css Started */
+
+
+/* Media Querry sarted */
+   
+@media only screen and (min-width: 300px) and (max-width: 900px){
+    
+    /* top-nav media started */
+    .top-nav {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        background-color: #F5EBDC;
+        position: fixed;
+        z-index: 400;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1.41px;
+    }
+    
+    .container-top{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #F5EBDC;
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    }
+    
+    .logo {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo>button{
+        background: transparent;
+        border: 1px solid gray;
+        width: 80px;
+        cursor: pointer;
+    }
+    
+    .logo>img{
+      width: 40px;
+    }
+    
+    .top-button {
+        width: 50%;
+        height: 35px;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+        align-self: center;
+    }
+    
+    .login{
+         width: 120px;
+         background-color:#D62300;
+         color: #ffffff;
+         border-radius: 30px;
+         font-weight: bold;
+         border: none;
+    }
+    
+    .login:hover {
+        background-color: #A71B00;
+        cursor:crosshair;
+    }
+    
+    .price {
+     display: none;
+    }
+    
+
+    /* top-nav media Ended */
+
+    /* Burger Gif Media Started */
+.burger-gif {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+ }
+.headings{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-content: baseline;
+}
+.headings-text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.headings-text-2{
+ display: contents;
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ justify-content: center;
+ padding-top: 20px;
+ font-family: ali basit;
+ font-size: 15px;
+ color: #502314;
+}
+.gif-button {
+    /* display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%; */
+    display: none;
+}
+
+.gif-button-2{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.headings-text>h1{
+   display: none;
+}
+
+.burgers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.burgers-img {
+    display: flex;
+    justify-content: center;
+}
+
+.burgers-img>img{
+    width: 450px;
+    height: auto;
+}
+
+.red-button{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    font-family: basit;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #d62300;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.red-button:hover{
+    background-color: #A71B00;
+    cursor: crosshair;
+}
+
+.transparant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: basit;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d62300;
+    border-radius: 25px;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #d62300;
+    background: transparent;
+}
+
+.transparant:hover{
+    background-color: #F2D7C6; 
+    cursor: crosshair;
+}
+
+/* Burger Gif Css Endted */
+
+/* cards Media Query */
+
+.cards {
+    width: 80%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 80px;
+    gap: 20px;
+}
+
+.card-content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-img>img{
+    width: 381px;
+}
+
+.cards-text{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.card-1-button{
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.card-content-2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards-img-2>img{
+    width: 381px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cards-text-2{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+    gap: 5px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.card-2-button{
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.cards-3 {
+    width: 80%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-top:90px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.card-content-3 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-img-3>img{
+    width: 381px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cards-text-3{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.card-3-button{
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+
+.card-content-4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards-img-4>img{
+    width: 381px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cards-text-4{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+    gap: 5px;
+    text-align: justify;
+    font-family: basit;
+    color: rgba(80, 35, 20);
+    font-size: 12px;
+    margin-top: 10px;
+}
+.card-4-button{
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+/* last section media query started */
+.last-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EBE2D3;
+    height: 340px;
+}
+
+.image-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.qr-image {
+    display: flex;
+    justify-content: center;
+}
+.qr-image>img {
+    width:200px ;
+}
+
+
+.offer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top:-50px;
+}
+
+.offer>br{
+    display: none;
+}
+
+.offer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.offer-buttons>button{
+    width: 150px;
+    height: 50px;
+}
+
+.offer-para>p {
+    line-height: normal;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+/* last section css Ended */
+
+/* red bar css started */
+.red-bar{
+    height: 70px;
+}
+
+.red-content {
+    flex-direction: column;
+    background-color: #502314;
+}
+
+.red-content>a {
+    color: #ffffff;
+}
+
+}
+
